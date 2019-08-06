@@ -5,12 +5,10 @@
   <nodes />
   <notes />
   <edges />
-  <settings layout="Hierarchic Group" zoom="0.10000000000000014" x="777.9999999999891" y="284.9999999999959" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="763.5" y="284.0" />
   <SelectedNodes />
-  <Categories>
-    <Category>Fields</Category>
-  </Categories>
-  <SCOPE>All</SCOPE>
+  <Categories />
+  <SCOPE>Open Files</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>
 

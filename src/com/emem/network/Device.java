@@ -1,11 +1,10 @@
 package com.emem.network;
 
-public class Device extends Network {
+public abstract class Device extends Network {
 
-    private int age;
-    private int batteryLife;
+    protected int age;
+    protected int batteryLife;
+    protected int remainingPower;
 
-    public Device() {
-
-    }
+    public abstract void calculateRemainingPower();
 }
