@@ -4,11 +4,10 @@ public class Connected extends Device {
 
     private static int totalNumberOfConnectedDevices;
 
-    public Connected() {
+    public Connected(int age, int batteryLife) {
+        this.age = age;
+        this.batteryLife = batteryLife;
         totalNumberOfConnectedDevices++;
-        this.age = 0;
-
-
     }
 
     @Override
